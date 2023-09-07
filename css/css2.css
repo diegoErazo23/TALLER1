@@ -4,3 +4,43 @@
       padding: 1px; /* Espaciado interno para el contenido */
       color: white; /* Color del texto */
 }
+
+.barra {
+    width: 1300px; /* Ancho del recuadro */
+    height: 650px;
+    padding: 35px; /* Espacio interno del recuadro */
+    border: 5px solid #7d747458; /* Borde del recuadro */
+    background-color: #faf8f8; /* Color de fondo del recuadro */
+    text-align: center; /* Alineación del contenido en el centro */
+    margin: 20px auto; /* Centrar el recuadro horizontalmente en la página */
+}
+
+.imagen-borde {
+    border: 1px solid #000;
+}
+
+.contenedor-centrado {
+    text-align: center;
+}
+
+.imagen-centrada {
+    display: inline-block;
+    margin: 0 auto;
+}
+.boton-centrado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px; /* Centrar verticalmente en la ventana del navegador */
+   
+
+}
+.boton-biografia{
+    text-align: center;
+    background-color: red; /* Color de fondo */
+    color: white; /* Color del texto */
+    border: none; /* Eliminar el borde */
+    padding: 10px 20px; /* Espaciado interior */
+    font-size: 20px; /* Tamaño de fuente */
+    cursor: pointer; /* Cambiar el cursor al pasar el ratón */
+}
